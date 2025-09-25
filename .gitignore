@@ -1,0 +1,19 @@
+# Python build/cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local env/keys
+.env
+.env.*
+openai_api_key.txt
+.venv/
+
+# Logs/caches
+*.log
+*.cache
+
+# If you ever copy runtime data into the repo by mistake, ignore it:
+.chatgpt_cli/
+threads/
+chatgpt_cli_data/
